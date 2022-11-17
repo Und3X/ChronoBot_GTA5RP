@@ -14,6 +14,7 @@ client = discord.Client()
 
 @client.event
 async def on_ready():
+    guild = client.guilds
     # for guild in client.guilds:
     #     if guild.name == GUILD:
     #         break
